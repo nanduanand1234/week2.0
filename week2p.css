@@ -1,0 +1,58 @@
+/* Body styles */
+body {    
+    background-color: rgb(198, 246, 166);
+    font-family: 'Sevillana', sans-serif; /* Setting a fallback font */
+}
+
+header {
+    text-align: center;
+    margin-top: 20px; /* Add some space above the header */
+}
+
+/* Name styles */
+.name {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px; /* Increase font size */
+    margin-bottom: 10px; /* Add some space below the name */
+}
+
+/* Image styles */
+img {
+    border-radius: 40px;
+    margin-bottom: 20px; /* Add some space below the image */
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px; 
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; 
+}
+
+th, td {
+    border: 1px solid #9f1818; /* Add borders to table cells */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #5f9814; /* Gray background for table headers */
+}
+
+/* Anchor styles */
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: blue; /* Change link color */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: rgb(240, 29, 177); /* Darker color on hover */
+}
